@@ -63,18 +63,18 @@ def getSynLinksRecursive(senses, link, lang='jpn', _depth=0):
     getSynLinksRecursive(_senses, link, lang, _depth+1)
 
 if __name__ == '__main__':
-  if len(sys.argv) == 2:
-    w = sys.argv[1].decode('utf-8')
-    for i in range(10):
-      words = getWords(w)
-      if words:
-        sense = getSenses(words[0])
-        getSynLinksRecursive(sense, 'hype', 'jpn')
-        getSynLinksRecursive(sense, 'hypo', 'jpn')
-        next_w = random.choice([x for x in list(set(l)) if x != w])
-        print w, 'といったら', next_w
-        l = []
-        w = next_w
-      else:
-        print >>sys.stderr, "(nothing found)"
-        break
+  if len(sys.argv) != 3: sys.exit('usage: ./banana.py [word] [N_chain]')
+  w = sys.argv[1].decode('utf-8')
+  for n in range(int(sys.argv[2])):
+    words = getWords(w)
+    if words:
+      sense = getSenses(words[0])
+      getSynLinksRecursive(sense, 'hype', 'jpn')
+      getSynLinksRecursive(sense, 'hypo', 'jpn')
+      next_w = random.choice([x for x in list(set(l)) if x != w])
+      print w, 'といったら', next_w
+      l = []
+      w = next_w
+    else:
+      print >>sys.stderr, "(nothing found)"
+      break
