@@ -1,12 +1,12 @@
-# Automatic Magical Banana
+## Automatic Magical Banana
 
-## Usage
+### Usage
 
 ```
 $ python banana.py [word]
 ```
 
-## Example
+### Example
 
 ```
 $ ./banana.py バナナ 10
@@ -22,7 +22,7 @@ $ ./banana.py バナナ 10
 物質 といったら 材料
 ```
 
-## References
+### References
 
 [Japanese Word Net](http://compling.hss.ntu.edu.sg/wnja/): You need to download an sqlite3 database from this webpage.
 
