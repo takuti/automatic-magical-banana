@@ -1,29 +1,29 @@
-## Automatic Magical Banana
+# Automatic Magical Banana
 
-### Usage
+## Usage
 
 ```
 $ python banana.py [word]
 ```
 
-### Example
+## Example
 
 ```
-$ python banana.py hello
-hello といったら 通信
-通信 といったら 自明の理
-自明の理 といったら 抽象的実体
-抽象的実体 といったら 弁論趣意書
-弁論趣意書 といったら 通信
-通信 といったら クリニック
-クリニック といったら エスタブリシュメント
-エスタブリシュメント といったら 崇拝者
-崇拝者 といったら 抽象的実体
-抽象的実体 といったら 遊び
+$ ./banana.py バナナ 10
+バナナ といったら 青果
+青果 といったら 紅みかん
+紅みかん といったら 固体
+固体 といったら 脳
+脳 といったら 固体
+固体 といったら 天然硝子
+天然硝子 といったら はり
+はり といったら ステンドグラス
+ステンドグラス といったら 物質
+物質 といったら 材料
 ```
 
-### References
+## References
 
-[Japanese Word Net](http://compling.hss.ntu.edu.sg/wnja/)
+[Japanese Word Net](http://compling.hss.ntu.edu.sg/wnja/): You need to download an sqlite3 database from this webpage.
 
-[Python Front-end for the Japanese Word Net](http://subtech.g.hatena.ne.jp/y_yanbe/20090314/) (Initial source code totally refers on this implementation)
+[Python Front-end for the Japanese Word Net](http://subtech.g.hatena.ne.jp/y_yanbe/20090314/): Initial source code totally refers on this implementation.
