@@ -3,7 +3,7 @@
 ### Usage
 
 ```
-$ python banana.py [word]
+$ ./banana.py [word] [N_chain]
 ```
 
 ### Example
@@ -26,4 +26,4 @@ $ ./banana.py バナナ 10
 
 [Japanese Word Net](http://compling.hss.ntu.edu.sg/wnja/): You need to download an sqlite3 database from this webpage.
 
-[Python Front-end for the Japanese Word Net](http://subtech.g.hatena.ne.jp/y_yanbe/20090314/): Initial source code totally refers on this implementation.
+[Python Front-end for the Japanese Word Net](http://subtech.g.hatena.ne.jp/y_yanbe/20090314/): Initial source code totally refers to this implementation.
