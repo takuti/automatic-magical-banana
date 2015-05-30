@@ -24,6 +24,6 @@ $ ./banana.py バナナ 10
 
 ### References
 
-[Japanese Word Net](http://compling.hss.ntu.edu.sg/wnja/): You need to download an sqlite3 database from this webpage.
+[Japanese WordNet](http://compling.hss.ntu.edu.sg/wnja/): You need to download an sqlite3 database from this webpage.
 
-[Python Front-end for the Japanese Word Net](http://subtech.g.hatena.ne.jp/y_yanbe/20090314/): Initial source code totally refers to this implementation.
+[Python Front-end for the Japanese WordNet](http://subtech.g.hatena.ne.jp/y_yanbe/20090314/): Initial source code totally refers to this implementation.
